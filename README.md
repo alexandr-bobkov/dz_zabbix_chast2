@@ -197,11 +197,11 @@ fi
 
 *    Открываем конфиг: sudo nano /etc/zabbix/zabbix_agentd.conf
 *    Добавляем строку в раздел UserParameter:
-*    UserParameter=custom.script[*],/usr/local/bin/zabbix_script.sh $1
+    UserParameter=custom.script[*],/usr/local/bin/zabbix_script.sh $1
 * Логика:
-custom.script — уникальное имя ключа для Zabbix.
+     custom.script — уникальное имя ключа для Zabbix.
      [*] — принимает любое значение из скобок в Zabbix (1 или 2).
-$1 — передает это значение внутрь скрипта как первый аргумент.
+     $1 — передает это значение внутрь скрипта как первый аргумент.
 *    Перезагружаем агента, чтобы он прочитал новый конфиг:
 ```bash        
 sudo systemctl restart zabbix-agent
