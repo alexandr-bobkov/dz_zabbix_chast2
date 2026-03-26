@@ -232,4 +232,6 @@ sudo systemctl restart zabbix-agent
 <details>
 <summary>Нажми, чтобы увидеть скриншот "Результат отработки скрипта" </summary>
 <img src="img/6.jpg" width = 100%>
+<img src="img/7.jpg" width = 100%>
+<img src="img/8.jpg" width = 100%>
 </details>
